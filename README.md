@@ -4,7 +4,7 @@ Tesztelésre szánt alkalmazás.
 
 ## Online működő változat
 
-* [https://github.com/oktat/tehengter](https://github.com/oktat/tehengter)
+* [https://szit.hu/m/tehengter](https://szit.hu/m/tehengter)
 
 ## Tesztesetek
 
