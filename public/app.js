@@ -11,6 +11,8 @@
     const radius = Number(doc.radiusInput.value);
     const height = Number(doc.heightInput.value);
     const volume = Math.PI * radius * radius * height;
+    doc.radiusInput.value = "";
+    doc.heightInput.value = "";
     doc.volumeOutput.value = volume;
   });
 })();
