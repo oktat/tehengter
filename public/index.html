@@ -1,0 +1,60 @@
+
+<!--
+File: index.html
+Author: Vezetéknév Keresztnév
+Copyright: 2024, Vezetéknév Keresztnév
+Group: Csoportnév
+Date: 2024-12-02
+Github: https://github.com/valami12345/
+Licenc: MIT
+-->
+
+<!DOCTYPE html>
+<html lang="hu">
+  <head>
+    <meta charset="UTF-8">
+    <title>Henger</title>
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="style.css">    
+  </head>
+  <body>
+    <div class="container">
+        <h1 class="text-center my-5">Henger térfogata</h1>
+        <form id="cylinderForm">
+            <div class="input-group mb-3">
+                <span class="input-group-text w-25">Sugár</span>
+                <input type="text" 
+                class="form-control" 
+                id="radius" 
+                placeholder="sugár">
+                <span class="input-group-text">cm</span>
+            </div>
+            <div class="input-group mb-3">
+                <span class="input-group-text w-25">Magasság</span>
+                <input type="text" 
+                class="form-control" 
+                id="height" 
+                placeholder="magasság">
+                <span class="input-group-text">cm</span>
+            </div>
+            
+            <button type="submit" 
+            class="btn btn-primary my-3" id="calcButton">
+            Számít
+            </button>
+            
+            <div class="input-group mb-3">
+                <span class="input-group-text">Térfogat</span>
+                <input type="text"
+                class="form-control" 
+                id="volume" 
+                readonly>
+                <span class="input-group-text">cm<sup>3</sup></span>
+            </div>
+        </form>
+
+    </div>
+    <script src="bootstrap.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
