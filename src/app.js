@@ -1,3 +1,13 @@
+/*
+File: index.html
+Author: Sallai András
+Copyright: 2025, Sallai András
+Group: szit
+Date: 2025-01-10
+Github: https://github.com/oktat/
+Licenc: MIT
+*/
+
 import { calcVolume } from './cylinder.js';
 
 doc = {
