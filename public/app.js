@@ -5,7 +5,7 @@
   }
 
   // src/app.js
-  doc = {
+  var doc = {
     cylinderForm: document.querySelector("#cylinderForm"),
     radiusInput: document.querySelector("#radius"),
     heightInput: document.querySelector("#height"),

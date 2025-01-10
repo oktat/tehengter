@@ -1,5 +1,5 @@
 /*
-File: index.html
+File: app.js
 Author: Sallai András
 Copyright: 2025, Sallai András
 Group: szit
@@ -10,7 +10,7 @@ Licenc: MIT
 
 import { calcVolume } from './cylinder.js';
 
-doc = {
+const doc = {
   cylinderForm: document.querySelector('#cylinderForm'),
   radiusInput: document.querySelector('#radius'),
   heightInput: document.querySelector('#height'),

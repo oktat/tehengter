@@ -1,5 +1,5 @@
 /*
-File: index.html
+File: cylinder.js
 Author: Sallai András
 Copyright: 2025, Sallai András
 Group: szit
